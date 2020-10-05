@@ -16,12 +16,12 @@ def displayIntro():
 	print()
 
 def chooseCave():
-cave = ''
+	cave = ''
 	while cave != '1' and cave != '2':
 		print('Which cave will you go into? (1 or 2)')
 		cave = input()
 
-	return cave
+	return caves
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
